@@ -18,9 +18,13 @@ def Mydrag():
     num=int(input('Ingresa una numero entre 1 y 5: \nCero para Salir\n:'))
     if num==0:
      break'''
-option=False
+'''option=False
 while not option:
     num=int(input('Ingresa una numero entre 1 y 5: \nCero para Salir\n:'))
     Mydrag()
     if num==0:
-        option=True
+        option=True'''
+num=None
+while num!=0:
+    num=int(input('Ingresa una numero entre 1 y 5: \nCero para Salir\n:'))
+    Mydrag()
